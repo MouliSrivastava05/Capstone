@@ -310,3 +310,44 @@ height: 664px;
 border: 1px solid #00000000;
 
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .portfolio-para {
+        padding: 24px;
+    }
+
+    .services {
+        padding: 24px;
+    }
+
+    .table td, .table th {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav a {
+        font-size: 16px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .stat-number {
+        font-size: 24px;
+    }
+
+    .stat-label {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
